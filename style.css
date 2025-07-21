@@ -1,0 +1,68 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fef2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+}
+
+.flyer {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.text-section {
+  margin: 20px 0;
+  padding: 0 15px;
+}
+
+.text-section h2 {
+  color: #b22222;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.text-section h3 {
+  color: #444;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.text-section p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.contact-section {
+  margin-top: 20px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe57;
+}
+
+.whatsapp-button i {
+  margin-right: 10px;
+}
